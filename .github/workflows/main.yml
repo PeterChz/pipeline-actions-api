@@ -31,7 +31,7 @@ jobs:
       - name: Instalamos dependencias y realizamos e build
         run: |
           npm install
-          npm ruin build --if-present
+          npm run build --if-present
           
       
     
